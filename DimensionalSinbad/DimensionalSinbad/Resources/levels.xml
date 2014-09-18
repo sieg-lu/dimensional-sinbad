@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DimensionalSinbadLevels>
+  <level levelfilename="easystart.xml"/>
+  <level levelfilename="firstwarp.xml"/>
+  <level levelfilename="easystartupgrade.xml"/>
+  <level levelfilename="nearest.xml"/>
+  
+  <level levelfilename="stairs.xml"/>
+  <level levelfilename="upstairs.xml"/>
+  <level levelfilename="level1.xml"/>
+  <level levelfilename="workrum.xml"/>
+</DimensionalSinbadLevels>

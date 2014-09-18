@@ -1,0 +1,349 @@
+material Template/AlphaRed
+  {
+    technique
+    {
+      pass
+      {
+		scene_blend alpha_blend
+        depth_write off
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 1 0 0
+		  alpha_op_ex source1 src_manual src_current 0.3
+        }
+      } 
+    }
+  }
+  
+material Template/AlphaYellow
+  {
+    technique
+    {
+      pass
+      {
+		scene_blend alpha_blend
+        depth_write off
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 1 1 0
+		  alpha_op_ex source1 src_manual src_current 0.3
+        }
+      } 
+    }
+  }
+  
+material Template/AlphaSkyblue
+  {
+    technique
+    {
+      pass
+      {
+		scene_blend alpha_blend
+        depth_write off
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 0 1 1
+		  alpha_op_ex source1 src_manual src_current 0.3
+        }
+      } 
+    }
+  }
+   
+material Template/AlphaBlue
+  {
+    technique
+    {
+      pass
+      {
+		scene_blend alpha_blend
+        depth_write off
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 0 0 0.6
+		  alpha_op_ex source1 src_manual src_current 0.3
+        }
+      } 
+    }
+  }
+  
+material Template/AlphaPurple
+  {
+    technique
+    {
+      pass
+      {
+		scene_blend alpha_blend
+        depth_write off
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 0.6 0.2 0.8
+		  alpha_op_ex source1 src_manual src_current 0.3
+        }
+      } 
+    }
+  }
+  
+material Template/AlphaOrange
+  {
+    technique
+    {
+      pass
+      {
+		scene_blend alpha_blend
+        depth_write off
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 1 0.5 0
+		  alpha_op_ex source1 src_manual src_current 0.3
+        }
+      } 
+    }
+  }
+  
+material Template/AlphaGreen
+  {
+    technique
+    {
+      pass
+      {
+		scene_blend alpha_blend
+        depth_write off
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 0.03 0.97 0.06
+		  alpha_op_ex source1 src_manual src_current 0.3
+        }
+      } 
+    }
+  }
+  
+material Template/AlphaBlack
+  {
+    technique
+    {
+      pass
+      {
+		scene_blend alpha_blend
+        depth_write off
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 0 0 0
+		  alpha_op_ex source1 src_manual src_current 0.3
+        }
+      } 
+    }
+  }
+  
+material Template/AlphaWhite
+  {
+    technique
+    {
+      pass
+      {
+		scene_blend alpha_blend
+        depth_write off
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 1 1 1
+		  alpha_op_ex source1 src_manual src_current 0.3
+        }
+      } 
+    }
+  }  
+  
+material Template/Red
+  {
+    technique
+    {
+      pass
+      {
+		texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 1 0 0
+        }
+      } 
+    }
+  }
+  
+material Template/Yellow
+  {
+    technique
+    {
+      pass
+      {
+		texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 1 1 0
+        }
+      } 
+    }
+  }
+  
+material Template/Skyblue
+  {
+    technique
+    {
+      pass
+      {
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 0 1 1
+        }
+      } 
+    }
+  }
+  
+material Template/Blue
+  {
+    technique
+    {
+      pass
+      {
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 0 0 0.6
+        }
+      } 
+    }
+  }
+  
+material Template/Purple 
+  {
+    technique
+    {
+      pass
+      {
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 0.6 0.2 0.8
+        }
+      } 
+    }
+  }  
+  
+material Template/Orange 
+  {
+    technique
+    {
+      pass
+      {
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 1 0.5 0
+        }
+      } 
+    }
+  }    
+  
+material Template/Green 
+  {
+    technique
+    {
+      pass
+      {
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 0.03 0.97 0.06
+        }
+      } 
+    }
+  }  
+
+material Template/Black 
+  {
+    technique
+    {
+      pass
+      {
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 0 0 0
+        }
+      } 
+    }
+  }  
+  
+material Template/White 
+  {
+    technique
+    {
+      pass
+      {
+        texture_unit
+        {
+          colour_op_ex source1 src_manual src_current 1 1 1
+        }
+      } 
+    }
+  }  
+  
+  
+  material Template/GreenShaded
+{
+   technique
+   {
+      pass
+      {
+         lighting on
+ 
+         ambient 0 0.8 0 1
+         diffuse 0 1 0 1
+         emissive 0 0 0 1
+		 texture_unit
+		{
+			texture winning.jpg
+		}
+      }
+   }
+}
+  material Template/RedShaded
+{
+   technique
+   {
+      pass
+      {
+         lighting on
+ 
+         ambient 0.8 0 0 1
+         diffuse 1 0 0 1
+         emissive 0 0 0 1
+		 texture_unit
+		{
+			texture fire.jpg
+		}
+      }
+   }
+}
+  material Template/WhiteShaded
+{
+   technique
+   {
+      pass
+      {
+         lighting on
+ 
+         ambient 0.9 0.9 0.9 1
+         diffuse 0.8 0.8 0.8 1
+         emissive 0 0 0 1
+		 texture_unit
+		{
+			texture wood.jpg
+		}
+      }
+   }
+}
+
+material Coin
+{
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture gold_texture.jpg
+			}
+		}
+	}
+}

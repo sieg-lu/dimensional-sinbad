@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DimensionalSinbad>
+  <WorldSize side="50" length="7" width="7" height="3" scale="0.5"/>
+  <WhiteVectors>
+    <Vector x="0" y="0" z="0"/>
+    <Vector x="1" y="0" z="0"/>
+    <Vector x="2" y="0" z="0"/>
+    <Vector x="3" y="0" z="0"/>
+    <Vector x="4" y="0" z="0"/>
+    <Vector x="5" y="0" z="0"/>
+    <Vector x="0" y="0" z="1"/>
+    <Vector x="1" y="0" z="1"/>
+    <Vector x="2" y="0" z="1"/>
+    <Vector x="3" y="0" z="1"/>
+    <Vector x="4" y="0" z="1"/>
+    <Vector x="5" y="0" z="1"/>
+    <Vector x="0" y="0" z="2"/>
+    <Vector x="1" y="0" z="2"/>
+    <Vector x="2" y="0" z="2"/>
+    <Vector x="3" y="0" z="2"/>
+    <Vector x="4" y="0" z="2"/>
+    <Vector x="5" y="0" z="2"/>    
+  </WhiteVectors>
+  <RedVectors>
+  </RedVectors>
+  <GreenVectors>
+    <Vector x="5" y="0" z="0"/>
+    <Vector x="5" y="0" z="1"/>
+    <Vector x="5" y="0" z="2"/>
+  </GreenVectors>
+  <PlayerPosition>
+    <Vector x="0" y="1" z="0"/>
+  </PlayerPosition>
+</DimensionalSinbad>

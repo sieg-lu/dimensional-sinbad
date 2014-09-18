@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DimensionalSinbad>
+  <WorldSize side="50" length="8" width="6" height="2" scale="0.5"/>
+  <WhiteVectors>
+    <Vector x="0" y="0" z="0"/>
+    <Vector x="1" y="0" z="0"/>
+    <Vector x="2" y="0" z="0"/>
+    <Vector x="3" y="0" z="0"/>
+    
+    <Vector x="1" y="1" z="0"/>
+    
+    <Vector x="2" y="0" z="2"/>
+    
+    <Vector x="0" y="0" z="3"/>
+    <Vector x="0" y="0" z="4"/>
+    <Vector x="0" y="0" z="5"/>
+    
+    <Vector x="5" y="0" z="0"/>
+    <Vector x="6" y="0" z="0"/>
+    <Vector x="7" y="0" z="0"/>
+    <Vector x="5" y="0" z="1"/>
+    <Vector x="6" y="0" z="1"/>
+    <Vector x="7" y="0" z="1"/>
+    <Vector x="5" y="0" z="2"/>
+    <Vector x="6" y="0" z="2"/>
+    <Vector x="7" y="0" z="2"/>
+    <Vector x="5" y="0" z="3"/>
+    <Vector x="6" y="0" z="3"/>
+    <Vector x="7" y="0" z="3"/>
+    <Vector x="5" y="0" z="4"/>
+    <Vector x="6" y="0" z="4"/>
+    <Vector x="7" y="0" z="4"/>
+  </WhiteVectors>
+  <RedVectors>
+    <Vector x="0" y="0" z="1"/>
+  </RedVectors>
+  <GreenVectors>
+    <Vector x="1" y="0" z="1"/>
+    <Vector x="2" y="0" z="1"/>
+  </GreenVectors>
+  <Coins>
+    <Vector x="2" y="1" z="0"/>
+    <Vector x="1" y="2" z="1"/>
+  </Coins>
+  <PlayerPosition>
+    <Vector x="6" y="1" z="2"/>
+  </PlayerPosition>
+</DimensionalSinbad>
